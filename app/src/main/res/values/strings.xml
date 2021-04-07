@@ -58,4 +58,6 @@
     <string name="send_answer_failure">投稿に失敗しました</string>
     <string name="answer_error_message">回答を入力してください</string>
 
+    <!-- お気に入りボタン文字列 -->
+    <string name="favorite_button_label">お気に入り登録</string>
 </resources>
