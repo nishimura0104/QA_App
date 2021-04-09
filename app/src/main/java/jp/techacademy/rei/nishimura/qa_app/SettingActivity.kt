@@ -64,6 +64,15 @@ class SettingActivity : AppCompatActivity() {
             FirebaseAuth.getInstance().signOut()
             nameText.setText("")
             Snackbar.make(v, getString(R.string.logout_complete_message), Snackbar.LENGTH_LONG).show()
+            saveName("")
         }
+    }
+
+    private fun saveName(name: String) {
+        // Preferenceに保存する
+        val sp = PreferenceManager.getDefaultSharedPreferences(this)
+        val editor = sp.edit()
+        editor.putString(NameKEY, name)
+        editor.commit()
     }
 }

@@ -27,6 +27,7 @@
     <string name="menu_life_label">生活</string>
     <string name="menu_health_label">健康</string>
     <string name="menu_compter_label">コンピューター</string>
+    <string name="menu_favorite_label">お気に入り</string>
 
     <!-- 設定画面用文字列　-->
     <string name="setting_title">設定</string>
